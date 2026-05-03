@@ -4,6 +4,9 @@
 
 <form method="POST" action="/submitDonorForm">
 
+
+    <!-- Link label to input for accessibility, using for and id attributes -->
+
     <label for="firstName">First name</label>
     <input id="firstName" type="text" name="firstName"
            {{#donor.firstName}}value="{{donor.firstName}}"{{/donor.firstName}}>
